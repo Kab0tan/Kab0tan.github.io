@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>
+        Site web test UwU
+    </title>
+    <link rel="stylesheet" href="junior_style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body data-barba="wrapper">
+    <div class="wipe-transition">
+    </div>
+
+    <main data-barba="container" data-barba-namespace="page2">
+
+        <section class="header">
+            <nav class="fixed-nav-bar">
+                <a href="index.html">
+                    <img src="logos/Blanc sur bleu.png">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-solid-a fa-xmark" onclick="hideMenu()"></i>
+                    <div class="subnav">
+                        <!-- <button class="subnavbtn" onclick="window.location.href='UwU_test.html';">Accueil</button> -->
+                        <a class="subnavbtn" href="index.html" style="text-decoration: none">Accueil</a>
+                    </div>
+                    <div class="subnav">
+                        <button class="subnavbtn">Nos prestations <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="subnav-content">
+                            <a href="junior_domaines.html">Domaines d'expertise</a>
+                            <a class="dot" href="#">Notre plaquette</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                        <button class="subnavbtn">A propos de nous <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="subnav-content">
+                            <a href="junior_equipe_actuelle.html">Notre équipe actuelle</a>
+                            <a class="dot" href="junior_equipe.html">Les différents mandats</a>
+                            <a class="dot" href="junior_partenaires.html">Nos partenaires</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                        <a class="subnavbtn-b" href="junior_devis.html" style="text-decoration: none">OBTENIR UN DEVIS</a>
+                    </div>
+                </div>
+                <i class="fa-solid fa-solid-a fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>
+                    Junior ENSE3
+                </h1>
+                <h5>
+                    Bienvenue sur le site de la Junior ENSE3 <br>
+                </h5>
+                <p2> Junior Entreprise de Grenoble INP-ENSE3
+                </p2>
+                <br1>
+                    <a href="" class="devis-btn">Demander un devis</a>
+                    <div class="div-fa-angles-down">
+                        <a href="#intro">
+                            <i class="fa-solid fa-angles-down"></i>
+                        </a>
+                    </div>
+            </div>
+
+
+        </section>
+
+
+        <section id="intro" class="intro-devis">
+            <div class="container-devis">
+
+                <div class="subgrid">
+                    <h1>Obtenir un devis</h1>
+                    <h1></h1>
+                    <input type="text" id="fname" name="firstname" placeholder="Prénom*">
+                    <input type="text" id="lname" name="lastname" placeholder="Nom*">
+                    <input type="text" id="email" name="email" placeholder="Email*">
+                    <input type="text" id="email" name="email" placeholder="Entreprise / Association / ...*">
+
+                    <!-- <select id="country" name="country">
+                        <option disabled selected>Select a country</option>
+                        <option value="france">France</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select> -->
+                    <input type="text" id="telephone" name="telephone" placeholder="Téléphone*">
+                    <input type="text" id="email" name="email" placeholder="Comment nous avez-vous connu ?">
+
+                    <textarea class="subgrid-row-4" id="subject" name="subject"
+                        placeholder="Votre message.."></textarea>
+                    <!-- <input type="submit" value="Submit"> -->
+                </div>
+                <div class="devis-contact">
+                    <h1>Nous contacter</h1>
+                    <div class="devis-contact-sub">
+                        <i class="fa-solid fa-map-pin fa-devis"></i>
+                        <span>Grenoble INP - Junior Ense3 <br>
+                            21 avenue des Martyrs <br>
+                            38031 Grenoble</span>
+                    </div>
+                    <div class="devis-contact-sub">
+                        <i class="fa-solid fa-phone fa-devis"></i>
+                        <span>04 76 82 64 88</span>
+                    </div>
+                    <div class="devis-contact-sub">
+                        <i class="fa-solid fa-envelope fa-devis"></i>
+                        <span>contact@junior-ense3.fr</span>
+                    </div>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Envoyer" id="form_button">
+            </div>
+        </section>
+
+
+
+
+
+        <section class="footer">
+            <h4>A propos de nous</h4>
+            <div class="icons-footer">
+                <a href="https://fr-fr.facebook.com/juniorense3/" style="color:black"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/juniorense3/?hl=fr" style="color:black"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://fr.linkedin.com/company/juniorense3" style="color:black"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+</body>
+
+</html>

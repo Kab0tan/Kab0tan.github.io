@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>
+            Site web test UwU
+        </title>
+        <link rel="stylesheet" href="junior_style.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+        <script src="script.js" defer></script>
+        
+    </head>
+
+    <body data-barba="wrapper">
+        <div class="wipe-transition">
+        </div>
+
+        <main data-barba="container" data-barba-namespace="page4">
+
+        <section class="header">
+            <nav class="fixed-nav-bar">
+                <a href ="index.html">
+                    <img src="logos/Blanc sur bleu.png">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-solid-a fa-xmark" onclick="hideMenu()"></i>
+                    <div class="subnav">
+                        <a class="subnavbtn" href="index.html" style="text-decoration: none">Accueil</a>
+                    </div>
+                    <div class="subnav">
+                        <button class="subnavbtn">Nos prestations <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="subnav-content">
+                            <a href="junior_domaines.html">Domaines d'expertise</a>
+                            <a class="dot" href="#">Notre plaquette</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                        <button class="subnavbtn">A propos de nous <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="subnav-content">
+                            <a href="#">Notre équipe actuelle</a>
+                            <a class="dot" href="junior_equipe.html">Les différents mandats</a>
+                            <a class="dot" href="junior_partenaires.html">Nos partenaires</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                        <a class="subnavbtn-b" href="junior_devis.html" style="text-decoration: none">OBTENIR UN DEVIS</a>
+                    </div>
+                </div>
+                <i class="fa-solid fa-solid-a fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <img src="photos/mandat2022.png" class="header-image">
+
+
+        </section>
+
+        <section id="intro" class="intro" style="color:red">
+            A développer
+        </section>
+
+        <section class="footer">
+            <h4>A propos de nous</h4>
+            <div class="icons-footer">
+                <a href="https://fr-fr.facebook.com/juniorense3/" style="color:black"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/juniorense3/?hl=fr" style="color:black"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://fr.linkedin.com/company/juniorense3" style="color:black"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </section>
+
+        </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    </body>
+</html>
