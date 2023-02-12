@@ -1,7 +1,6 @@
 var navLinks = document.getElementById("navLinks");
 
 function showMenu() {
-    console.log("prout");
     navLinks.style.right = "0";
 }
 function hideMenu() {
